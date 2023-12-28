@@ -1,0 +1,76 @@
+/*config tailwind*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*pacifico*/
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root {
+    --client-home-more-button-color: #fff;
+    
+    --header-title-color: #fff;
+    --header-title-hover-color: #053e65;
+    --client-header-description-color: #999;
+
+    --client-search-bg-color: #262626;
+    --client-search-input-bg-color: #262626;
+    --client-search-input-text-color: #999;
+    --client-search-input-border-color: #999;
+
+    --client-navbar-color: #1d1d1d;
+    --client-navbar-text-color: #999;
+    --client-navbar-navitem-hover-text-color: #fff;
+    --client-navbar-navitem-bg-color: #3a3a3a;
+
+    --client-display-list-bg-color: #e9e9e9;
+    --client-display-item-bg-color: #fff;
+    --client-display-time-bg-color: #f2f2f2;
+    --client-display-time-text-color: #999;
+    --client-display-item-continue-color: #007dc1;
+    --client-display-item-text-hover-color: #00d084; 
+
+    --client-category-border-color: #1d1d1d;
+
+    --client-post-bookmark-bg-color-1: #2b3542;
+    --client-post-bookmark-bg-color-2: #3f4854;
+    --client-post-bookmark-text-color: #999;
+    --client-post-bookmark-text-color-2: #fff;
+    --client-post-bookmark-text-color-3: #00d084; 
+    --client-post-reply-button-color: #007dc1;
+    --client-post-reply-button-hover-color: #00d084;
+    --client-post-reply-button-text-color: #fff;
+
+    --client-addpost-border-color: #000;
+
+    --login-bg-color: #fff;
+    --login-input-color: #e6e6e6;
+    --login-input-incorrect: #ff0000;
+    --login-button-text-color: #fff;
+    --login-button-text-hover-color: #000;
+    --login-button-color: #053e65;
+    --login-button-hover-color: #007dc1;
+    --login-hover-color: #007dc1;
+
+    --admin-navbar-bg-color: #99c2ff;
+    --admin-navbar-text-color: #000;
+    --admin-navbar-bg-color-select: #007dc1;
+    --admin-navbar-text-color-select: #fff;
+
+    --admin-home-button-color-1: #007dc1;
+    --admin-home-button-color-2: #ff0000;
+    --admin-home-input-border-select-color: #000;
+}
+
+.searchIcon:hover {
+    color: #007dc1;
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
